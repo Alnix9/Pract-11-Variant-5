@@ -1,0 +1,17 @@
+﻿<Window x:Class="Генеральский_практическая_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Генеральский_практическая_11"
+        mc:Ignorable="d"
+        Title="Генеральский практическая 11" Height="326" Width="346">
+    <Grid>
+        <Button Content="Ввести строку" Click="EnterLine" Margin="158,10,62,250" />
+        <Button Content="Найти строку" Click="FindLine" Margin="158,65,62,195" />
+        <Button Content="О программе" Click="About_Programm" Margin="158,120,62,140" />
+        <Button Content="Выход" Click="Exit" Margin="158,175,62,85" />
+        <TextBox x:Name="tbEnterredLine" Margin="23,10,197,250" />
+        <TextBox x:Name="tbFindLine" Margin="23,65,197,195" />
+    </Grid>
+</Window>
